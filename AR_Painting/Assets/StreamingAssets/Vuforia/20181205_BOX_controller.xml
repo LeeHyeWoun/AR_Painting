@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="BoxRemote.Top" size="2.000000 1.000000"/>
+        <ImageTarget name="BoxRemote.Bottom" size="2.000000 1.000000"/>
+        <ImageTarget name="BoxRemote.Left" size="1.000000 2.000000"/>
+        <ImageTarget name="BoxRemote.Front" size="2.000000 2.000000"/>
+        <ImageTarget name="BoxRemote.Back" size="2.000000 2.000000"/>
+        <ImageTarget name="BoxRemote.Right" size="1.000000 1.992032"/>
+        <MultiTarget name="BoxRemote">
+            <Part name="BoxRemote.Left" translation="-1.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="BoxRemote.Right" translation="1.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="BoxRemote.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="BoxRemote.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="BoxRemote.Top" translation="0 1.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="BoxRemote.Bottom" translation="0 -1.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

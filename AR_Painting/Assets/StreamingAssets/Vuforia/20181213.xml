@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="SWU_www_b" size="2.000000 1.000000"/>
+        <ImageTarget name="box.Top" size="2.000000 1.000000"/>
+        <ImageTarget name="box.Bottom" size="2.000000 1.000000"/>
+        <ImageTarget name="box.Left" size="1.000000 2.000000"/>
+        <ImageTarget name="box.Front" size="2.000000 2.000000"/>
+        <ImageTarget name="box.Back" size="2.000000 2.000000"/>
+        <ImageTarget name="box.Right" size="1.000000 1.992032"/>
+        <MultiTarget name="box">
+            <Part name="box.Left" translation="-1.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="box.Right" translation="1.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="box.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="box.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="box.Top" translation="0 1.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="box.Bottom" translation="0 -1.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
